@@ -26,7 +26,9 @@ export default function RootLayout({
 				/>
 			</head>
 			<body className="bg-[#0f1216] text-gray-100 bg-[url('/background.png')] bg-no-repeat bg-top sm:bg-right-top">
-				{children}
+				<main className="max-w-[1240] mx-auto px-5 py-8 md:py-0">
+					{children}
+				</main>
 			</body>
 		</html>
 	)
