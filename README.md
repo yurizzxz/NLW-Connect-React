@@ -4,12 +4,12 @@ Este é o projeto desenvolvido durante o evento **NLW Connect 2025** da [Rockets
 
 ## 🛠 Tecnologias
 
-- **[Next.js](https://nextjs.org/)**  
-- **[TypeScript](https://www.typescriptlang.org/)**  
-- **[Biome](https://biomejs.dev/)**  
-- **[Zod](https://zod.dev/)**  
-- **[React Hook Form](https://react-hook-form.com/)**  
-- **[Tailwind Merge](https://tailwind-merge.dev/)**  
+- **[Next.js](https://nextjs.org/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Biome](https://biomejs.dev/)**
+- **[Zod](https://zod.dev/)**
+- **[React Hook Form](https://react-hook-form.com/)**
+- **[Tailwind Merge](https://tailwind-merge.dev/)**
 
 ## 💡 Sobre o Projeto
 
@@ -27,13 +27,13 @@ A aplicação consiste em um formulário de inscrição para um evento. Após se
 Clone o repositório:
 
 ```bash
-$ git clone https://github.com/seu-usuario/nlw-connect-2025.git
+$ git clone https://github.com/yurizzxz/nlw-connect-2025.git
 ```
 
 Acesse o diretório:
 
 ```bash
-$ cd nlw-connect-2025
+$ cd nlw-connect-react
 ```
 
 Instale as dependências:
@@ -49,4 +49,3 @@ $ pnpm dev
 ```
 
 Acesse: [http://localhost:3000](http://localhost:3000)
-
