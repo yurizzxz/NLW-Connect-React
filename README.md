@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 NLW Connect 2025 - Rocketseat
 
-## Getting Started
+Este é o projeto desenvolvido durante o evento **NLW Connect 2025** da [Rocketseat](https://www.rocketseat.com.br/). Trata-se de uma aplicação de inscrição para eventos, com funcionalidade de indicação.
 
-First, run the development server:
+## 🛠 Tecnologias
+
+- **[Next.js](https://nextjs.org/)**  
+- **[TypeScript](https://www.typescriptlang.org/)**  
+- **[Biome](https://biomejs.dev/)**  
+- **[Zod](https://zod.dev/)**  
+- **[React Hook Form](https://react-hook-form.com/)**  
+- **[Tailwind Merge](https://tailwind-merge.dev/)**  
+
+## 💡 Sobre o Projeto
+
+A aplicação consiste em um formulário de inscrição para um evento. Após se inscrever, o usuário recebe um link personalizado para indicar amigos. O site também exibe um ranking de usuários com mais indicações.
+
+### Funcionalidades:
+
+- Formulário de inscrição validado pelo Zod.
+- Uso de React Hook Form para manipulação de formulários.
+- Estilo com Tailwind CSS e otimização com Tailwind Merge.
+- Ranking de usuários com mais indicações.
+
+## 🏁 Como rodar o projeto
+
+Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ git clone https://github.com/seu-usuario/nlw-connect-2025.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse o diretório:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+$ cd nlw-connect-2025
+```
 
-## Learn More
+Instale as dependências:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+$ pnpm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Rode o projeto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+$ pnpm dev
+```
 
-## Deploy on Vercel
+Acesse: [http://localhost:3000](http://localhost:3000)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
